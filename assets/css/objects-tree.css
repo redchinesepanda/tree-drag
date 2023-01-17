@@ -1,0 +1,125 @@
+/* Обьект Офрмление */
+.item {
+	display: flex;
+	margin-top: 10px;
+	width: fit-content;
+	position: relative;
+}
+/* Контролы Оформление */
+.dropzone,
+.delete,
+.add,
+.expand {
+	height: 35px;
+	width: 33.333%;
+	/*border: 2px dashed #1b4f72;
+	margin: -2px;*/
+	text-align: center;
+}
+.delete,
+.add,
+.expand {
+	cursor: pointer;
+}
+/* Наследники Оформление */
+.children {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	padding: 10px;
+	margin: 10px;
+	width: fit-content;
+}
+/* Информация Оформление */
+.data {
+	padding: 10px;
+	margin: 10px;
+	width: 250px;
+	height: fit-content;
+	display: flex;
+	flex-wrap: wrap;
+	cursor: move;
+}
+.data h6,
+.data p {
+	width: 100%;
+	display: block;
+}
+.data h6 {
+	margin-top: 23px;
+	margin-bottom: 5px;
+	color: rgb(58, 58, 58);
+	cursor: pointer;
+}
+.data p {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color: rgb(75, 79, 88);
+}
+.data {
+	box-shadow: rgba(225, 225, 225, 0.5) 0px 0px 45px 0px;
+	transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;
+	padding: 50px;
+	background-color: #ffffff;
+}
+.data {
+	border-style: solid;
+	border-width: 0 0 4px;
+	border-color: #ffffff;
+}
+.data:hover {
+	border-color: #09aeb8;
+}
+/*Информация Типографика*/
+.data h6 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 30px;
+}
+.data p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 28px;
+}
+.data i {
+	font-size: 35px;
+	color: #09aeb8;
+}
+.data i:hover {
+	color: rgb(255, 215, 99);
+}
+/* Сообщение Оформление */
+.message {
+	text-align: center;
+}
+/* Сообщение Типографика */
+.message {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 38px;
+	color: rgb(58, 58, 58);
+}
+/*Подсказка Оформление*/
+.help ul {
+	list-style: none;
+}
+.help li {
+	background-image: url('/assets/img/list.svg');
+	background-position: left center;
+	background-repeat: no-repeat;
+	padding-left: 25px;
+}
+/*Подсказка Типографика*/
+.help li {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 28px;
+}

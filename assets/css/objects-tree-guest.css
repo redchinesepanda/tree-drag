@@ -1,0 +1,30 @@
+/* Данные Оформление */
+.data {
+	position: relative;
+}
+.data p {
+	display: none;
+}
+.data p.active {
+	display: block;
+	position: absolute;
+	z-index: 1;
+	top: 15px;
+	left: calc(100% + 10px);
+	width: 200px;
+	background-color: rgb(255, 215, 99);
+	padding: 50px;
+}
+/* Данные Типографика */
+.data p {
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 28px
+	color: rgb(75, 79, 88);
+}
+.children:not(.active) {
+	display: none;
+}
+.children.active {
+	display: flex;
+}

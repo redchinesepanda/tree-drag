@@ -1,0 +1,137 @@
+/* Подтверждение Офорсмение */
+.item:tree .confirm-container {
+	top: 150px;
+	left: 360px;
+}
+.item:not(.tree) .confirm-container {
+	top: 125px;
+	left: 175px;
+}
+.confirm-container {
+	position: absolute;
+	z-index: 1;
+	transform: translate(-50%, -50%);
+	box-shadow: rgba(225, 225, 225, 0.5) 0px 0px 45px 0px;
+	background-color: #fff;
+	padding: 50px;
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 600px;
+}
+/* Подтверждение Типографика */
+.confirm-container h5 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 38px;
+	color: rgb(58, 58, 58);
+}
+
+/* Подтверждение Отображение */
+.confirm-container h5 {
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+.confirm-container a:not(:last-child) {
+	margin-right: 40px;
+}
+.confirm-container a  {
+	padding: 15px 25px;
+}
+/* Подтверждение Типографика */
+.confirm-container a {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 15px;
+	background-color: rgb(9, 174, 184);
+	color: rgb(255, 255, 255);
+	text-decoration-line: none;
+	text-transform: uppercase;
+}
+.confirm-container a:hover {
+	background-color: rgb(255, 215, 99);
+}
+/* Форма Офорсмение */
+header .login form {
+	left: -100px;
+	top: 100px;
+}
+.item.tree form {
+	top: 150px;
+	left: 360px;
+}
+.item:not(.tree) form {
+	top: 125px;
+	left: 175px;
+}
+form {
+	position: absolute;
+	z-index: 1;
+	transform: translate(-50%, -50%);
+	box-shadow: rgba(225, 225, 225, 0.5) 0px 0px 45px 0px;
+	background-color: #fff;
+	padding: 50px;
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 600px;
+}
+/* Офорсмение Поле */
+form input[type="text"],
+form input[type="password"] {
+	width: 100%;
+	color: #666;
+	padding: .75em;
+	height: auto;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #dddddd;
+	border-radius: 2px;
+	background: #fafafa;
+	box-shadow: none;
+	box-sizing: border-box;
+	transition: all .2s linear;
+	display: block;
+	margin-bottom: 20px;
+}
+form input:focus {
+	color: #111;
+	background-color: #ffffff;
+}
+/* Типографика Поле */
+form input[type="text"] {
+	font-family: 'Montserrat', sans-serif;
+	color: rgb(102, 102, 102);
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 20px;
+}
+/* Офорсмение Кнопка */
+form input[type="submit"],
+form input[type="button"] {
+	padding: 15px 40px;
+	background-color: rgb(9, 174, 184);
+	border: 0px;
+}
+form input[type="submit"]:not(:last-child),
+form input[type="button"]:not(:last-child) {
+	margin-right: 20px;
+}
+/* Типографика Кнопка */
+form input[type="submit"],
+form input[type="button"] {
+	font-family: 'Montserrat', sans-serif;
+	color: rgb(255, 255, 255);
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 15px;
+	text-transform: uppercase;
+}

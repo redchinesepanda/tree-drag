@@ -1,0 +1,67 @@
+/* Страница Отображение */
+body {
+	width: 100%;
+	overflow-x: hidden;
+}
+.content {
+	overflow-x: scroll;
+}
+/* Шапка Отображение */
+header {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	height: 100px;
+	padding-bottom: 45px;
+}
+/* Логотип Отображение */
+header .logo a {
+	display: block;
+	width: 116px;
+	height: 90px;
+	background-image: url('/assets/img/logo.svg');
+	background-position: center;
+	background-repeat: no-repeat;
+}
+/* Меню Отображение */
+header .menu a {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+/* Меню Типографика */
+header .menu a {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 70px;
+	color: rgb(58, 58, 58);
+	text-decoration-line: none;
+	text-transform: uppercase;
+}
+header .menu a:hover {
+	color: #09aeb8;
+}
+/* Кнопка Отображение */
+header .login a {
+	padding: 15px 25px;
+}
+header .login {
+	position: relative;
+}
+/* Кнопка Типографика */
+header .login a {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 15px;
+	background-color: rgb(9, 174, 184);
+	color: rgb(255, 255, 255);
+	text-decoration-line: none;
+	text-transform: uppercase;
+}
+header .login a:hover {
+	background-color: rgb(255, 215, 99);
+}

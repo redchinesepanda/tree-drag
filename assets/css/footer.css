@@ -1,0 +1,17 @@
+/* Подвал Отображение */
+footer {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	height: 100px;
+}
+/* Подвал Типографика */
+footer .copyright {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 28px;
+	color: rgb(75, 79, 88);
+}
